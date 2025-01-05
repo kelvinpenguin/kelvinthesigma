@@ -2,12 +2,12 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #fff5e1;  /* Light background */
+    background-color: #fff5e1;
     color: #333;
 }
 
 header {
-    background: #d32f2f;  /* Red header */
+    background: #d32f2f;
     color: white;
     text-align: center;
     padding: 50px 0;
@@ -19,7 +19,7 @@ header h1 {
 }
 
 .penguin {
-    color: #ffcc00;  /* Yellow for 'Penguin' */
+    color: #ffcc00;
 }
 
 .container {
@@ -29,7 +29,7 @@ header h1 {
 }
 
 h2 {
-    color: #f57c00;  /* Orange for section titles */
+    color: #f57c00;
 }
 
 ul {
@@ -42,55 +42,6 @@ ul li {
     font-size: 1.2rem;
 }
 
-.project {
-    margin-top: 20px;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: white;
-}
-
-#subscribe form {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-#subscribe input[type="email"] {
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #f57c00;
-    border-radius: 5px;
-    margin-right: 10px;
-    width: 300px;
-}
-
-#subscribe button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    background-color: #f57c00;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#subscribe button:hover {
-    background-color: #e65100;  /* Darker orange hover */
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #d32f2f;  /* Red footer */
-    color: white;
-}
-
-#languages {
-    text-align: center;
-    margin-top: 50px;
-}
-
 .language {
     margin: 20px 0;
 }
@@ -100,7 +51,26 @@ footer {
     margin: 10px 0;
 }
 
-.language p {
-    font-size: 1.5rem;
-    color: #d32f2f;
+/* Penguin Animation */
+.animated .penguin-rating {
+    display: inline-block;
+    animation: slideIn 1.5s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #d32f2f;
+    color: white;
 }
