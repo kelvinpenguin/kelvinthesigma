@@ -85,3 +85,22 @@ footer {
     background: #d32f2f;  /* Red footer */
     color: white;
 }
+
+#languages {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.language {
+    margin: 20px 0;
+}
+
+.penguin-rating {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.language p {
+    font-size: 1.5rem;
+    color: #d32f2f;
+}
