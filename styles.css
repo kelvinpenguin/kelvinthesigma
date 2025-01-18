@@ -74,3 +74,14 @@ footer {
     background: #d32f2f;
     color: white;
 }
+button {
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;    
+    text-align: center;
+
+}
